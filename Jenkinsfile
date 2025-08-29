@@ -7,7 +7,7 @@ pipeline{
     stage('First Stage'){
       
       steps{
-        sh 'echo "Hello"'
+        sh 'echo "Hello" from main ---------'
       }      
     }
     
