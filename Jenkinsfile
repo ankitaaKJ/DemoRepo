@@ -7,7 +7,7 @@ pipeline{
     stage('First Stage'){
       
       steps{
-        sh 'echo "Hello from Dev branch"'
+        sh 'echo "Hello from Prod branch"'
       }      
     }
     
