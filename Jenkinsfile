@@ -6,7 +6,7 @@ pipeline{
   
     stage('First Stage'){
       when {
-          changerequest()
+          changeRequest()
         }
       steps{
         
