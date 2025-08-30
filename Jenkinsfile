@@ -7,7 +7,11 @@ pipeline{
     stage('First Stage'){
       
       steps{
-        sh 'echo "Hello" from main ---------'
+        when {
+          changerequest()
+        }
+        
+        sh 'This branch has PR ---------'
       }      
     }
     
