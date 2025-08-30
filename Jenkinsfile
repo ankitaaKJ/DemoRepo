@@ -5,11 +5,11 @@ pipeline{
   stages{
   
     stage('First Stage'){
-      
-      steps{
-        when {
+      when {
           changerequest()
         }
+      steps{
+        
         
         sh 'This branch has PR ---------'
       }      
