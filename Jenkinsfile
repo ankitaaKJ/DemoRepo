@@ -8,8 +8,10 @@ pipeline{
       when {
         changeRequest()
       }
-      steps{
-        sh 'echo "ChangeRequest Block from Dev Branch Jenkinsfile"'
+      
+      steps{        
+        
+        sh 'This branch has PR ---------'
       }      
     }
     
