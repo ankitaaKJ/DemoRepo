@@ -5,9 +5,11 @@ pipeline{
   stages{
   
     stage('First Stage'){
-      
+      when {
+        changeRequest()
+      }
       steps{
-        sh 'echo "Hello from Dev branch"'
+        sh 'echo "ChangeRequest Block from Dev Branch Jenkinsfile"'
       }      
     }
     
