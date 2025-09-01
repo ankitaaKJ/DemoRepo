@@ -11,7 +11,7 @@ pipeline{
       
       steps{        
         
-        sh 'This branch has PR ---------'
+        sh 'echo "This branch has PR ---------"'
       }      
     }
     
