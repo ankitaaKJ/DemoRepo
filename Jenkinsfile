@@ -6,12 +6,12 @@ pipeline{
   
     stage('First Stage'){
       when {
-          changeRequest()
-        }
-      steps{
+        changeRequest()
+      }
+      
+      steps{        
         
-        
-        sh 'This branch has PR ---------'
+        sh 'echo "This branch has PR ---------"'
       }      
     }
     
